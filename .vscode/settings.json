@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Monster Inc.sln"
+    "dotnet.defaultSolution": "Monster-Inc.sln"
 }
