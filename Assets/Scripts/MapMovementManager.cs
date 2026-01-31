@@ -7,6 +7,7 @@ public class MapMovementManager : MonoBehaviour
 
     private void Update()
     {
+        if (Time.timeScale == 0f) return;
         map.transform.position += Vector3.left * movementSpeed * Time.deltaTime;
     }
 }
